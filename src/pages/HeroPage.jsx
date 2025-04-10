@@ -1,15 +1,19 @@
 import React from 'react'
+import Img from '../assets/sub-banner1.5d5f9c6f.jpg';
+import img from '../assets/sub-banner2.3b2448f3.jpg'
 import Header from '../component/Header'
+import OfferPage from './OfferPage';
 
 export default function HeroPage() {
+  
   return (
-    <div className='h-80'>
+    <div className='' id=''>
         <Header />
-        <section className="flex flex-col md:flex-row items-center justify-between px-6 md:px-20 py-12">
+        <section className="flex flex-col border md:flex-row items-center justify-between px-6 md:px-20 py-12">
         {/* // Text */}
-        <div className="max-w-md text-center md:text-left">
+        <div className="max-w-md flex flex-col text-center md:text-left">
           <div className="flex items-center justify-center md:justify-start mb-4">
-            <img src="./assets/sub-banner1.5d5f9c6f.jpg" alt="" />
+            <img src={Img} alt="" />
           </div>
           <h2 className="text-sm text-gray-500">Welcome To Fashion</h2>
           <h1 className="text-4xl font-semibold mt-2 mb-6">MEN FASHION</h1>
@@ -20,7 +24,7 @@ export default function HeroPage() {
         {/* Image */}
         <div className="mt-10 md:mt-0 md:max-w-md">
           <img
-            src="/path-to-your-image.jpg"
+            src={img}
             alt="Men Fashion"
             className="rounded-lg"
           />
@@ -72,6 +76,7 @@ export default function HeroPage() {
           </div>
         </div>
       </section>
+      <OfferPage />
     </div>
 
   

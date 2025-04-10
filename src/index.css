@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+#Content{
+    /* background-color: red; */
+    background-image: url(./assets/backgimg.jpg);
+    /* border: solid 1px red; */
+    height: 80vh;
+    width: 100%;
+    /* background-size: cover; */
+}

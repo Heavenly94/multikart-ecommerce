@@ -30,7 +30,7 @@ export default function Header() {
         </nav>
         </div>
     
-    <div className="min-h-screen mt-5 bg-white font-sans">
+    <div id='Content' className="min-h-screen mt-5 font-sans">
         <header className='flex justify-between items-center px-6 py-4 shadow-md'>
             <div className="text-2xl font-bold text-red-600">
                 <span className='text-black'>M</span>ultikart
@@ -39,7 +39,7 @@ export default function Header() {
                 <span><i className='text-red-600 pi pi-bars'></i></span>
                 <span><i className='text-black font-extrabold pi pi-search'></i></span>
                 <span><i className='text-black pi pi-cog'></i></span>
-                <span><i className='text-black text-3xl pi pi-trash'></i></span>
+                <span><i className='text-black pi pi-trash'></i></span>
                 <button className='text-xl pi pi-cart'></button>
             </nav>
         </header>
